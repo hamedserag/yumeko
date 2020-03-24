@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #461019;
+}
+
+.nav-item, .navbar-brand, .nav-link {
+  color: #F6F5F5;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+hr{
+  width: 80%;
+  background-color:  white;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.p1{
+  margin-top: 100px;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+.handImg{
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+  border-radius: 100%;
+  border: 2px solid grey;
+}
+.row{
+  margin-top: 20px;
+}
+.imgSlider{
+  width: 100%;
+  height: 700px;
+  object-fit: contain;
+  border-radius: 100%;
+  border-bottom: 4px solid white;
+  margin-bottom: 50px;
+}
+.footerBottom {
+  background-color: #461019;
+  color: white;
+  bottom: 0;
+}
+.rowAbout{
+  margin-top: 40px;
+  margin-bottom:40px;
+}
+.aboutHeader{
+  color: #461019;
+}
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Pacifico', cursive;
+*/
